@@ -15,7 +15,7 @@ public class HomePage {
     public HomePage open(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
-        Configurations.browserCapabilities = options;
+        Configuration.browserCapabilities = options;
         Configuration.baseUrl = "https://www.t-mobile.pl/";
         Selenide.open("");
         WebDriver driver = WebDriverRunner.getWebDriver();
