@@ -6,12 +6,16 @@ import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import static com.codeborne.selenide.Selenide.$;
 
 public class HomePage {
 
     public HomePage open(){
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("start-maximized");
+        Configurations.browserCapabilities = options;
         Configuration.baseUrl = "https://www.t-mobile.pl/";
         Selenide.open("");
         WebDriver driver = WebDriverRunner.getWebDriver();
