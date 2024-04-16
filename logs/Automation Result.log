@@ -1,8 +1,8 @@
-2024-04-16 15:11:53 [INFO ] [choosePhoneFromTheList] - [go_to_the_tmobile_page] T-Mobile landing page opened.
-2024-04-16 15:11:53 [INFO ] [choosePhoneFromTheList] - [choose_devices_from_the_top_bar] Devices manu is visible.
-2024-04-16 15:11:56 [INFO ] [choosePhoneFromTheList] - [choose_no_subscription_from_the_smartwatches_and_bands] Smartwatches and bands chosen.
-2024-04-16 15:11:56 [INFO ] [choosePhoneFromTheList] - [click_the_first_product_one_the_list] First product chosen.
-2024-04-16 15:11:59 [INFO ] [choosePhoneFromTheList] - [add_the_product_to_the_cart] Product added to basket.
-2024-04-16 15:12:01 [INFO ] [choosePhoneFromTheList] - [go_to_the_main_tmobile_page] Basket page opened, values are displayed as expected.
-2024-04-16 15:12:01 [INFO ] [choosePhoneFromTheList] - [main_page_is_visible] Landing page opened.
-2024-04-16 15:12:01 [INFO ] [choosePhoneFromTheList] - [there_should_be_one_element_in_the_basket] Basket consists of one product. Test ended successfully
+2024-04-16 16:24:53 [INFO ] [choosePhoneFromTheListFeature] - [go_to_the_tmobile_page] T-Mobile landing page opened.
+2024-04-16 16:24:54 [INFO ] [choosePhoneFromTheListFeature] - [choose_devices_from_the_top_bar] Devices manu is visible.
+2024-04-16 16:24:56 [INFO ] [choosePhoneFromTheListFeature] - [choose_no_subscription_from_the_smartwatches_and_bands] Smartwatches and bands chosen.
+2024-04-16 16:24:57 [INFO ] [choosePhoneFromTheListFeature] - [click_the_first_product_one_the_list] First product chosen.
+2024-04-16 16:25:00 [INFO ] [choosePhoneFromTheListFeature] - [add_the_product_to_the_cart] Product added to basket.
+2024-04-16 16:25:02 [INFO ] [choosePhoneFromTheListFeature] - [go_to_the_main_tmobile_page] Basket page opened, values are displayed as expected.
+2024-04-16 16:25:02 [INFO ] [choosePhoneFromTheListFeature] - [main_page_is_visible] Landing page opened.
+2024-04-16 16:25:02 [INFO ] [choosePhoneFromTheListFeature] - [there_should_be_one_element_in_the_basket] Basket consists of one product. Test ended successfully

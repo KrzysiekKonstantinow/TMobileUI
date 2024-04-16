@@ -18,9 +18,9 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
-public class choosePhoneFromTheList {
+public class choosePhoneFromTheListFeature {
 
-    private static Logger log = Logger.getLogger(choosePhoneFromTheList.class);
+    private static Logger log = Logger.getLogger(choosePhoneFromTheListFeature.class);
     HomePage homePage = new HomePage();
     DevicesSmartwatches devicesSmartwatches = new DevicesSmartwatches();
     ProductPage productPage = new ProductPage();
