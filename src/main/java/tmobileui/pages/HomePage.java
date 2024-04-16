@@ -14,7 +14,7 @@ public class HomePage {
 
     public HomePage open(){
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized");
+        options.addArguments("--window-size=1920x1080");
         Configuration.browserCapabilities = options;
         Configuration.baseUrl = "https://www.t-mobile.pl/";
         Selenide.open("");
