@@ -14,7 +14,7 @@ public class HomePage {
 
     public HomePage open(){
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-fullscreen");
+        options.addArguments("--headless");
         Configuration.browserCapabilities = options;
         Configuration.baseUrl = "https://www.t-mobile.pl/";
         Selenide.open("");
