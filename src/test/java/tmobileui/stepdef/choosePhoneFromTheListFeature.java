@@ -48,8 +48,8 @@ public class choosePhoneFromTheListFeature {
     @And("Choose devices from the top bar")
     public void choose_devices_from_the_top_bar() {
         try {
-            //homePage.cookiesBarAcceptButton().click();
-            homePage.devicesDropdown().hover();
+            homePage.cookiesBarAcceptButton().click();
+            homePage.devicesDropdown().click();
             $$(By.cssSelector(".hidden.menu-dropdown-submenu")).first().shouldBe(visible);
             log.info("Devices manu is visible.");
         }

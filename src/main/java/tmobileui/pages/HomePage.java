@@ -14,12 +14,12 @@ public class HomePage {
 
     public HomePage open(){
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
         Configuration.browserCapabilities = options;
         Configuration.baseUrl = "https://www.t-mobile.pl/";
         Selenide.open("");
         WebDriver driver = WebDriverRunner.getWebDriver();
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
         return this;
     }
     public SelenideElement devicesDropdown() {
